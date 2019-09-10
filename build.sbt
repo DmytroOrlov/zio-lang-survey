@@ -1,5 +1,7 @@
 enablePlugins(GraalVMNativeImagePlugin)
 
+scalaVersion := "2.12.9"
+
 val ZioVersion = "1.0-RC5"
 val circeVersion = "0.10.0"
 
